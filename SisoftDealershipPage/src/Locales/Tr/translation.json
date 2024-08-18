@@ -1,0 +1,19 @@
+{
+    "appTitle": "Sisoft Sağlık Bilgi Sistemleri",
+    "formTitle": "Başvuru Formu",
+    "formSubtitle": "Bayilik için lütfen gerekli bilgileri doldurun",
+    "name": "Ad Soyad",
+    "organization": "Kurum Adı",
+    "position": "Görev",
+    "phone": "Telefon",
+    "email": "Email Adresi",
+    "description": "Açıklama",
+    "address": "Adres",
+    "city": "Şehir",
+    "district": "İlçe",
+    "countryPlaceholder": "Ülke Seçiniz",
+    "submit": "Gönder",
+    "languagePlaceholder" : "Language",
+    "footer" : "www.sisoft.com.tr"
+  }
+  

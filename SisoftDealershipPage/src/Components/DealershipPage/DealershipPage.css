@@ -1,0 +1,140 @@
+/* Kerem DÖLEKSÖZ */
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start; 
+    height: 100vh;
+    padding: 0; 
+    box-sizing: border-box;
+}
+
+.form-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 20px;
+    background-color: white;
+    position: fixed; 
+    top: 0; 
+    left: 0;
+    right: 0;
+    z-index: 10; 
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+.form-header h1 {
+    font-family: 'Poppins', sans-serif; 
+    font-size: 36px; 
+    font-weight: 700; 
+    color: #2d3748;
+    text-align: center;
+    margin: 0; 
+}
+
+.logo {
+    height: 50px;
+}
+
+.left-logo {
+    position: absolute;
+    left: 20px;
+}
+
+.right-logo {
+    position: absolute;
+    right: 60px;
+}
+
+.form-body {
+    background-color: white;
+    padding: 25px; 
+    border-radius: 8px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 700px; 
+    margin-top: 100px; 
+}
+
+.form-body h2 {
+    font-size: 22px; 
+    color: #2d3748;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.form-body p {
+    font-size: 16px;
+    color: #718096;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.form-row {
+    display: flex;
+    justify-content: flex-end;
+    gap: 18px; 
+}
+
+form input, form textarea, form select {
+    width: 100%;
+    padding: 12px; 
+    border: 1px solid #e2e8f0;
+    border-radius: 4px;
+    font-size: 16px; 
+    color: #2d3748;
+}
+
+form textarea {
+    resize: vertical;
+    height: 100px; 
+}
+
+form button {
+    padding: 12px 18px; 
+    background-color: #3182ce;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px; 
+    cursor: pointer;
+    align-self: flex-end;
+}
+
+form button:hover {
+    background-color: #2b6cb0;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.footer {
+    font-size: x-large;
+    margin-top: auto;
+    text-align: center;
+    color: white;
+    padding: 10px;
+}
+
+.country-select {
+    width: 100%;
+    border: 1px solid #e2e8f0;
+    border-radius: 4px;
+    font-size: 16px;
+    color: #2d3748;
+    margin-top: 10px; 
+}
+
+.language-select {
+    width: 150px;
+    margin-left: auto;
+    margin-right: 20px;
+    margin-top: 5px; 
+    z-index: 20;
+}

@@ -1,0 +1,19 @@
+{
+    "appTitle": "Sisoft Healthcare Information Systems",
+    "formTitle": "Application Form",
+    "formSubtitle": "Please fill in the required information for dealership",
+    "name": "Name Surname",
+    "organization": "Organization Name",
+    "position": "Position",
+    "phone": "Phone",
+    "email": "Email Address",
+    "description": "Description",
+    "address": "Address",
+    "city": "City",
+    "district": "District",
+    "countryPlaceholder": "Select Country",
+    "submit": "Submit",
+    "languagePlaceholder" : "Language",
+    "footer" : "www.sisoft.com.tr"
+  }
+  
